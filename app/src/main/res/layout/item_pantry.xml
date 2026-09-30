@@ -14,7 +14,7 @@
         android:padding="16dp">
 
         <TextView
-            android:id="@+id/txtRecipeName"
+            android:id="@+id/txtItemName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="16sp"
@@ -22,11 +22,18 @@
             android:textColor="@color/text_primary" />
 
         <TextView
-            android:id="@+id/txtIngredientCount"
+            android:id="@+id/txtItemQuantity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:textSize="13sp"
+            android:textSize="14sp"
             android:textColor="@color/text_secondary" />
+
+        <TextView
+            android:id="@+id/txtItemExpiry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="13sp" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>
